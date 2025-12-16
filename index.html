@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio de Desenhos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Meu Portfólio</h1>
+    <p1>Desenhos e ilustrações autorais</p1>
+  </header>
+
+  <main class="gallery">
+    <img src="images/desenho1.png" alt="Desenho 1" onclick="openModal(this)">
+    <img src="images/desenho2.png" alt="Desenho 2" onclick="openModal(this)">
+    <img src="images/desenho3.png" alt="Desenho 3" onclick="openModal(this)">
+    <img src="images/desenho4.png" alt="Desenho 4" onclick="openModal(this)">
+    <img src="images/desenho5.png" alt="Desenho 5" onclick="openModal(this)">
+    <img src="images/desenho6.png" alt="Desenho 6" onclick="openModal(this)">
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" onclick="closeModal()">
+    <img id="modalImage">
+  </div>
+
+  <footer>
+    <p>© 2025 - Alexandre Rodrigues</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
